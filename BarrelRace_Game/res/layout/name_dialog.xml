@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbars="horizontal" >
+            
+        <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center" >
+				    <ImageView
+				        android:id="@+id/image"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_marginRight="5dp" 
+				        android:src="@drawable/barrel_launcher"
+				        />
+		 
+				    <EditText
+			        android:id="@+id/username"
+			        android:inputType="textEmailAddress"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="16dp"
+			        android:layout_marginLeft="4dp"
+			        android:layout_marginRight="4dp"
+			        android:layout_marginBottom="4dp"
+			        android:hint="Please enter your name..!"
+			        android:maxLength="10"
+		        	>
+		        	
+	        <requestFocus />
+	    </EditText>
+	</LinearLayout>
+</LinearLayout>
+</FrameLayout>

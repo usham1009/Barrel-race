@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grass2"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:scrollbars="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="10dp" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:paddingTop="10dp"
+                        android:text="CREDITS"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="&quot;Welcome to the Barrel Race Game ! Have fun galloping &amp; unleashing the Texas Cow Boy in You...!&quot;"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                     />
+                
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="&quot;App made by Dhruv and Usha. Thanks for using our app ! :)&quot;"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    />
+                
+                 <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="&quot;Any tips, suggestions!?\nYou can contact us at UrHeadGames.com! :-D &quot;"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</LinearLayout>

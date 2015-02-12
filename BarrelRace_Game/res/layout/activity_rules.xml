@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/grass2"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+     >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+         >
+   
+
+<ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="horizontal" >
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+             >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RULES"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+             >
+             
+		        <ImageView
+		    android:id="@+id/imageView1"
+		    android:layout_width="300dp"
+		    android:layout_height="300dp"
+		    android:src="@drawable/barrel_course"
+		    android:paddingBottom="5dp"
+		    
+		    />
+        
+        </LinearLayout>
+
+       
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 : Rider starts at a gate and must ride completely around 3 barrels without knocking over any of the barrels."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 : Touching any of the barrels means the rider loses, and must start over."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 : Hitting the fences around the course will add 5 seconds to the rider&apos;s time, but the rider gets to continue the race."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 : The object is to get the fastest time."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 : Each rider is ranked in the increasing order of time taken to finish race and the one with least time becomes the record holder."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        
+                   
+    </LinearLayout>
+       </ScrollView>
+
+
+  
+ </FrameLayout>
+</LinearLayout>

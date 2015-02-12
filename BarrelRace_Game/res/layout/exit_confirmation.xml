@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbars="horizontal" >
+            
+        <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center" >
+				    <ImageView
+				        android:id="@+id/image"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_marginRight="5dp" 
+				        android:src="@drawable/barrel_launcher"
+				        />
+		 
+				    <TextView
+				        android:id="@+id/text"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:text="Exit this nice game!?"
+				         android:textAppearance="?android:attr/textAppearanceLarge"
+				        />
+			</LinearLayout>
+		 
+		     <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center" >
+	                
+	                <Button
+				        android:id="@+id/dialogBtnYes"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="Yes! But I'll be back!"
+				         android:textAppearance="?android:attr/textAppearanceSmall"
+				        />
+
+	                <Button
+	                    android:id="@+id/dialogBtnNo"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="No! I wanna play more!"
+	                     android:textAppearance="?android:attr/textAppearanceSmall"
+	                     />
+
+		</LinearLayout>   
+	</LinearLayout>
+</FrameLayout>
